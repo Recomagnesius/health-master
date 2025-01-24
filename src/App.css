@@ -1,3 +1,25 @@
+:root {
+  --dark-bg: #1a1a2e;
+  --dark-text: #ffffff;
+  --primary-gradient: linear-gradient(135deg, #00b4db, #0083b0);
+  --secondary-gradient: linear-gradient(135deg, #00c6ff, #0072ff);
+  --accent-green: #00df9a;
+  --accent-blue: #00b4db;
+  --card-bg: rgba(255, 255, 255, 0.1);
+  --card-border: rgba(255, 255, 255, 0.2);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--dark-bg);
+  color: var(--dark-text);
+}
+
 .app {
   display: flex;
   flex-direction: column;
@@ -26,18 +48,18 @@ main {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--dark-bg);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--dark-text);
 }
 
 .App-link {
-  color: #61dafb;
+  color: var(--accent-blue);
 }
 
 @keyframes App-logo-spin {
