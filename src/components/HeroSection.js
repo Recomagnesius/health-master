@@ -20,7 +20,7 @@ const HeroSection = () => {
       </div>
       <div className="hero-image">
         <img 
-          src="https://via.placeholder.com/500x400" 
+          src="/health.jpg" 
           alt="Health illustration"
         />
       </div>

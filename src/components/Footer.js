@@ -32,13 +32,13 @@ const Footer = () => {
       </div>
       <div className="social-media">
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-          <img src="https://via.placeholder.com/24" alt="Twitter" />
+          <img src="/twitter.svg" alt="Twitter" />
         </a>
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-          <img src="https://via.placeholder.com/24" alt="Facebook" />
+          <img src="/facebook.svg" alt="Facebook" />
         </a>
         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-          <img src="https://via.placeholder.com/24" alt="LinkedIn" />
+          <img src="/linkedin.svg" alt="LinkedIn" />
         </a>
       </div>
     </footer>
